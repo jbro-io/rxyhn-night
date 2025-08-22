@@ -29,12 +29,12 @@
     "editorGutter.deletedBackground": "#df5b61",
     "editorGutter.foldingControlForeground": "#4f5a5e",
     "editorFoldBackground": "#0d181c",
-    "sideBar.background": "#061115",
+    "sideBar.background": "#0d1117",
     "sideBar.foreground": "#d9d7d6",
     "sideBarTitle.foreground": "#79aaeb",
     "sideBarSectionHeader.background": "#0d181c",
     "sideBarSectionHeader.foreground": "#79aaeb",
-    "activityBar.background": "#061115",
+    "activityBar.background": "#0d1117",
     "activityBar.foreground": "#d9d7d6",
     "activityBar.inactiveForeground": "#4f5a5e",
     "activityBarBadge.background": "#79aaeb",
@@ -46,9 +46,9 @@
     "statusBarItem.hoverBackground": "#131e22",
     "statusBarItem.errorBackground": "#f26e74",
     "statusBarItem.warningBackground": "#ecd28b",
-    "titleBar.activeBackground": "#061115",
+    "titleBar.activeBackground": "#0d1117",
     "titleBar.activeForeground": "#d9d7d6",
-    "titleBar.inactiveBackground": "#061115",
+    "titleBar.inactiveBackground": "#0d1117",
     "titleBar.inactiveForeground": "#4f5a5e",
     "titleBar.border": "#222d31",
     "menubar.selectionBackground": "#131e22",
@@ -496,12 +496,49 @@
         "variable.object.property",
         "support.variable.property",
         "variable.other.object.property",
-        "variable.other.property",
         "support.variable.property.ts",
         "support.variable.property.js"
       ],
       "settings": {
         "foreground": "#e9967e"
+      }
+    },
+    {
+      "name": "Object Properties",
+      "scope": "variable.object.property",
+      "settings": {
+        "foreground": "#89b4fa"
+      }
+    },
+    {
+      "name": "Chained Object Properties",
+      "scope": "variable.other.object.property",
+      "settings": {
+        "foreground": "#d9d7d6"
+      }
+    },
+    {
+      "name": "Object Other Properties",
+      "scope": "variable.other.property",
+      "settings": {
+        "foreground": "#c488ec"
+      }
+    },
+    {
+      "name": "Object Other Properties (test)",
+      "scope": [
+        "variable.other.readwrite",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#d9d7d6"
+      }
+    },
+    {
+      "name": "Object Other Properties (test2)",
+      "scope": "variable.parameter.js",
+      "settings": {
+        "foreground": "#ff0000"
       }
     },
     {
