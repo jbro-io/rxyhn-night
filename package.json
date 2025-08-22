@@ -2,7 +2,7 @@
   "name": "rxyhn-night",
   "displayName": "Night.nvim (rxyhn port)",
   "description": "A port of rxyhn's night.nvim theme for Cursor",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "publisher": "jbro",
   "engines": {
     "vscode": "^1.70.0"
