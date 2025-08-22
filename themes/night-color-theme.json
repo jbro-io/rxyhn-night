@@ -393,8 +393,23 @@
       }
     },
     {
-      "name": "Control Flow Keywords",
+      "name": "keywords",
       "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.control.flow.async",
+        "keyword.control.flow.await",
+        "keyword.control.conditional",
+        "keyword.control.loop"
+      ],
+      "settings": {
+        "foreground": "#c488ec"
+      }
+    },
+    {
+      "name": "control flow keywords",
+      "scope": [
+        "keyword.control.flow",
         "keyword.control.flow.return",
         "keyword.control.flow.throw",
         "keyword.control.flow.yield"
@@ -404,29 +419,17 @@
       }
     },
     {
-      "name": "Keywords",
+      "name": "Specific Keywords",
       "scope": [
-        "keyword",
-        "keyword.control",
-        "keyword.control.conditional",
-        "keyword.control.loop"
+        "keywords.control.await",
+        "keyword.control.flow.await"
       ],
       "settings": {
         "foreground": "#c488ec"
       }
     },
     {
-      "name": "Control Keywords (Special)",
-      "scope": [
-        "keyword.control.conditional",
-        "keyword.control.loop"
-      ],
-      "settings": {
-        "foreground": "#c488ec"
-      }
-    },
-    {
-      "name": "Repeat Keywords",
+      "name": "repeat keywords",
       "scope": [
         "keyword.control.repeat",
         "keyword.control.loop.for",
@@ -437,7 +440,7 @@
       }
     },
     {
-      "name": "Exception Keywords",
+      "name": "exception keywords",
       "scope": [
         "keyword.control.exception",
         "keyword.control.trycatch",
