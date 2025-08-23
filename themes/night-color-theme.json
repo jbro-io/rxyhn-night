@@ -357,6 +357,15 @@
       }
     },
     {
+      "name": "HTML String",
+      "scope": [
+        "meta.jsx.children.tsx"
+      ],
+      "settings": {
+       "foreground": "#d9d7d6" 
+      }
+    },
+    {
       "name": "String Interpolation",
       "scope": [
         "punctuation.definition.template-expression.begin",
