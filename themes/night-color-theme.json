@@ -119,7 +119,7 @@
     "list.focusBackground": "#131e22",
     "list.focusForeground": "#d9d7d6",
     "list.highlightForeground": "#79aaeb",
-    "list.focusHighlightForeground": "#b3242a",
+    "list.focusHighlightForeground": "#B55E6E",
     "list.errorForeground": "#f26e74",
     "list.warningForeground": "#ecd28b",
     "listFilterWidget.background": "#131e22",
@@ -578,7 +578,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#f9e2af"
+        "foreground": "#79aaeb"
       }
     },
     {
@@ -589,7 +589,7 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#f26e74"
+        "foreground": "#a3c7eb"
       }
     },
     {
@@ -599,7 +599,7 @@
         "meta.attribute"
       ],
       "settings": {
-        "foreground": "#79aaeb"
+        "foreground": "#e9967e"
       }
     },
     {
